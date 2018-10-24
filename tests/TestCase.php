@@ -1,6 +1,6 @@
 <?php
 
-namespace stekel\LaravelRelease\Tests;
+namespace stekel\FoodDatabase\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

@@ -1,0 +1,110 @@
+{
+    "list": {
+        "q": "Buttery Spread, Smart Balance",
+        "sr": "1",
+        "ds": "any",
+        "start": 0,
+        "end": 12,
+        "total": 12,
+        "group": "",
+        "sort": "n",
+        "item": [
+            {
+                "offset": 0,
+                "group": "Branded Food Products Database",
+                "name": "EARTH BALANCE, SOY FREE BUTTERY SPREAD, UPC: 033776011895",
+                "ndbno": "45059792",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 1,
+                "group": "Branded Food Products Database",
+                "name": "EARTH BALANCE, SOY GARDEN, NATURAL BUTTERY SPREAD, UPC: 033776011789",
+                "ndbno": "45034749",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 2,
+                "group": "Fats and Oils",
+                "name": "Margarine-like spread, SMART BALANCE Light Buttery Spread",
+                "ndbno": "04674",
+                "ds": "SR",
+                "manu": "GFA Brands"
+            },
+            {
+                "offset": 3,
+                "group": "Fats and Oils",
+                "name": "Margarine-like spread, SMART BALANCE Omega Plus Spread (with plant sterols & fish oil)",
+                "ndbno": "04677",
+                "ds": "SR",
+                "manu": "GFA Brands"
+            },
+            {
+                "offset": 4,
+                "group": "Fats and Oils",
+                "name": "Margarine-like spread, SMART BALANCE Regular Buttery Spread with flax oil",
+                "ndbno": "04673",
+                "ds": "SR",
+                "manu": "GFA Brands"
+            },
+            {
+                "offset": 5,
+                "group": "Branded Food Products Database",
+                "name": "SMART BALANCE, BUTTER SPREAD, UPC: 033776011529",
+                "ndbno": "45034751",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 6,
+                "group": "Branded Food Products Database",
+                "name": "SMART BALANCE, BUTTERY BURST SPRAY, UPC: 033776016203",
+                "ndbno": "45158045",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 7,
+                "group": "Branded Food Products Database",
+                "name": "SMART BALANCE, BUTTERY SPREAD, LIGHT, UPC: 033776011505",
+                "ndbno": "45024863",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 8,
+                "group": "Branded Food Products Database",
+                "name": "SMART BALANCE, BUTTERY SPREAD, UPC: 033776011543",
+                "ndbno": "45167440",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 9,
+                "group": "Branded Food Products Database",
+                "name": "SMART BALANCE, HEART RIGHT, LIGHT BUTTERY SPREAD, UPC: 033776019501",
+                "ndbno": "45032578",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 10,
+                "group": "Branded Food Products Database",
+                "name": "SMART BEAT, SMART SQUEEZE, NONFAT BUTTERY SPREAD, UPC: 033776018009",
+                "ndbno": "45078825",
+                "ds": "LI",
+                "manu": "PINNACLE FOODS GROUP LLC"
+            },
+            {
+                "offset": 11,
+                "group": "Branded Food Products Database",
+                "name": "SMART CHOICE BUTTERY SPREAD, UPC: 041497090525",
+                "ndbno": "45050988",
+                "ds": "LI",
+                "manu": "WEIS MARKETS, INC."
+            }
+        ]
+    }
+}

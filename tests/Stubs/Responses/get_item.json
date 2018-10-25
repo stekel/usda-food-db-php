@@ -1,0 +1,197 @@
+{
+    "foods": [
+        {
+            "food": {
+                "sr": "July, 2018",
+                "type": "b",
+                "desc": {
+                    "ndbno": "45059792",
+                    "name": "EARTH BALANCE, SOY FREE BUTTERY SPREAD, UPC: 033776011895",
+                    "ds": "Label Insight",
+                    "manu": "PINNACLE FOODS GROUP LLC",
+                    "ru": "g"
+                },
+                "ing": {
+                    "desc": "OIL BLEND (PALM FRUIT, CANOLA, SAFFLOWER, FLAX, AND OLIVE OILS), WATER, CONTAINS LESS THAN 2% OF SALT, NATURAL FLAVOR*, PEA PROTEIN, SUNFLOWER LECITHIN, LACTIC ACID (NON-DAIRY), AND NATURALLY EXTRACTED ANNATTO (COLOR).",
+                    "upd": "01/15/2018"
+                },
+                "nutrients": [
+                    {
+                        "nutrient_id": "208",
+                        "name": "Energy",
+                        "derivation": "LCCS",
+                        "group": "Proximates",
+                        "unit": "kcal",
+                        "value": "714",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "100"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "203",
+                        "name": "Protein",
+                        "derivation": "LCCS",
+                        "group": "Proximates",
+                        "unit": "g",
+                        "value": "0.00",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "0.00"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "204",
+                        "name": "Total lipid (fat)",
+                        "derivation": "LCCS",
+                        "group": "Proximates",
+                        "unit": "g",
+                        "value": "78.57",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "11.00"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "205",
+                        "name": "Carbohydrate, by difference",
+                        "derivation": "LCCD",
+                        "group": "Proximates",
+                        "unit": "g",
+                        "value": "0.00",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "0.00"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "307",
+                        "name": "Sodium, Na",
+                        "derivation": "LCCS",
+                        "group": "Minerals",
+                        "unit": "mg",
+                        "value": "786",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "110"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "606",
+                        "name": "Fatty acids, total saturated",
+                        "derivation": "LCCS",
+                        "group": "Lipids",
+                        "unit": "g",
+                        "value": "21.430",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "3.000"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "645",
+                        "name": "Fatty acids, total monounsaturated",
+                        "derivation": "LCCS",
+                        "group": "Lipids",
+                        "unit": "g",
+                        "value": "32.140",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "4.500"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "646",
+                        "name": "Fatty acids, total polyunsaturated",
+                        "derivation": "LCCS",
+                        "group": "Lipids",
+                        "unit": "g",
+                        "value": "25.000",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "3.500"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "605",
+                        "name": "Fatty acids, total trans",
+                        "derivation": "LCCS",
+                        "group": "Lipids",
+                        "unit": "g",
+                        "value": "0.000",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "0.000"
+                            }
+                        ]
+                    },
+                    {
+                        "nutrient_id": "601",
+                        "name": "Cholesterol",
+                        "derivation": "LCCD",
+                        "group": "Lipids",
+                        "unit": "mg",
+                        "value": "0",
+                        "measures": [
+                            {
+                                "label": "Tbsp",
+                                "eqv": 14,
+                                "eunit": "g",
+                                "qty": 1,
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ],
+                "footnotes": []
+            }
+        }
+    ],
+    "count": 1,
+    "notfound": 0,
+    "api": 2
+}

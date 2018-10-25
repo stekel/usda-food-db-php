@@ -28,7 +28,7 @@ class USDA {
      * Search for items
      *
      * @param  string $query
-     * @return array
+     * @return Items
      */
     public function search(string $query='') {
         
@@ -50,45 +50,32 @@ class USDA {
     //  */
     // public function list() {
     //
-    //     $client = new Client([
-    //         'base_uri' => 'https://api.nal.usda.gov/',
-    //     ]);
-    //
-    //     $parameters = [
-    //         'lt' => 'nr', // list type: d = derivation codes, f = food , n = all nutrients, ns = speciality nutrients, nr = standard release nutrients only,g = food group
+    //     $result = $this->client->get('/ndb/list/?', [
+    //         'lt' => 'nr',
     //         'format' => 'json',
     //         'sort' => 'n',
     //         'max' => 50,
     //         'offset' => 0,
     //         'api_key' => config('services.usda_api.key'),
-    //     ];
-    //
-    //     $response = $client->get('/ndb/list/?'.http_build_query($parameters));
-    //
-    //     return json_decode((string) $response->getBody(), true);
-    // }
-    //
-    // /**
-    //  * Get item by NBD number
-    //  *
-    //  * @param  string $ndbno
-    //  * @return array
-    //  */
-    // public function getItem($ndbno) {
-    //
-    //     $client = new Client([
-    //         'base_uri' => 'https://api.nal.usda.gov/',
     //     ]);
-    //
-    //     $parameters = [
-    //         'ndbno' => $ndbno,
-    //         'format' => 'json',
-    //         'type' => 'b', // [b]asic or [f]ull or [s]tats
-    //         'api_key' => config('services.usda_api.key'),
-    //     ];
-    //
-    //     $response = $client->get('/ndb/V2/reports?'.http_build_query($parameters));
-    //
-    //     return json_decode((string) $response->getBody(), true);
+    //     dd($result);
+    //     return new Items($result['list']);
     // }
+    
+    /**
+     * Get item by NBD number
+     *
+     * @param  string $ndbno
+     * @return Item
+     */
+    public function getItem($ndbno) {
+        
+        $result = $this->client->get('/ndb/V2/reports/', [
+            'ndbno' => $ndbno,
+            'format' => 'json',
+            'type' => 'b', // [b]asic or [f]ull or [s]tats
+        ]);
+        
+        return new Item($result['foods'][0]['food']);
+    }
 }

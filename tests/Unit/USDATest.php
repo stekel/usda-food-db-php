@@ -43,14 +43,4 @@ class USDATest extends TestCase {
         $this->assertEquals('OIL BLEND (PALM FRUIT, CANOLA, SAFFLOWER, FLAX, AND OLIVE OILS), WATER, CONTAINS LESS THAN 2% OF SALT, NATURAL FLAVOR*, PEA PROTEIN, SUNFLOWER LECITHIN, LACTIC ACID (NON-DAIRY), AND NATURALLY EXTRACTED ANNATTO (COLOR).', $result->ingredients);
         $this->assertEquals('01/15/2018', $result->ingredientsLastUpdatedAt);
     }
-    //
-    // /** @test **/
-    // public function can_get_a_list_of_items() {
-    //
-    //     $api = new USDA();
-    //
-    //     // dd($api->list());
-    //
-    //     $this->assertArrayHasKey('foods', $api->getItem('45059792'));
-    // }
 }

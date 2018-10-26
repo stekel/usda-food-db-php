@@ -25,9 +25,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "stekel\\FoodDatabase\\FoodDatabaseServiceProvider"
+                "stekel\\FoodDatabase\\Laravel\\Providers\\FoodDatabaseServiceProvider"
             ],
-            "aliases": {}
+            "aliases": {
+                "USDA": "stekel\\FoodDatabase\\Laravel\\Facade\\USDA"
+            }
         }
     }
 }

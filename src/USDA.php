@@ -43,25 +43,6 @@ class USDA {
         return new Items($result['list']);
     }
     
-    // /**
-    //  * List items
-    //  *
-    //  * @return array
-    //  */
-    // public function list() {
-    //
-    //     $result = $this->client->get('/ndb/list/?', [
-    //         'lt' => 'nr',
-    //         'format' => 'json',
-    //         'sort' => 'n',
-    //         'max' => 50,
-    //         'offset' => 0,
-    //         'api_key' => config('services.usda_api.key'),
-    //     ]);
-    //     dd($result);
-    //     return new Items($result['list']);
-    // }
-    
     /**
      * Get item by NBD number
      *

@@ -28,17 +28,17 @@ class USDA {
      * Search for items
      *
      * @param  string $query
+     * @param  array  $parameters
      * @return Items
      */
-    public function search(string $query='') {
+    public function search(string $query='', array $parameters=[]) {
         
-        $result = $this->client->get('/ndb/search/', [
+        $result = $this->client->get('/ndb/search/', array_merge([
             'q' => $query,
             'format' => 'json',
-            'sort' => 'n',
-            'max' => 50,
-            'offset' => 0,
-        ]);
+            'sort' => 'r',
+            'max' => 25,
+        ], $parameters));
         
         return new Items($result['list']);
     }
